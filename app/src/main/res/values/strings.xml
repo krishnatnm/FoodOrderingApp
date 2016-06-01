@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OrderFoodHere</string>
+
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string name="API_KEY">AIzaSyBGZhdmZlT-byOFSVmMSW8jp8yKu4c_N58</string>
+</resources>

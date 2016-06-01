@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#191817</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FDC300</color>
+
+    <color name="grey_text">#A7A7A7</color>
+    <color name="white_text">#FFFFFF</color>
+
+    <color name="black_overlay">#CC000000</color>
+
+    <color name="drawer_title">#FFFFFF</color>
+    <color name="drawer_sub_title">#888888</color>
+    <color name="drawer_item_separator">#AA888888</color>
+
+    <color name="food_item_overlay">#CC555555</color>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_margin_half">
+
+    <TextView
+        android:id="@+id/dh_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_margin_half"
+        android:layout_marginBottom="@dimen/activity_margin_half"
+        android:text="Welcome!"
+        android:textColor="@color/drawer_title"
+        android:textSize="@dimen/drawer_title" />
+
+    <TextView
+        android:id="@+id/dh_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dh_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_margin_half"
+        android:text="someid@somedomain.com"
+        android:textColor="@color/drawer_sub_title"
+        android:textSize="@dimen/drawer_sub_title" />
+
+    <ImageView
+        android:id="@+id/dh_close"
+        android:layout_width="@dimen/drawer_close_button"
+        android:layout_height="@dimen/drawer_close_button"
+        android:layout_above="@+id/dh_sub_title"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+</RelativeLayout>

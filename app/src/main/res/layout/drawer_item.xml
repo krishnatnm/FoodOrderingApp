@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/di_drawer_item"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/drawer_item_height"
+    android:layout_marginLeft="@dimen/drawer_item_horizontal"
+    android:layout_marginRight="@dimen/drawer_item_horizontal">
+
+    <ImageView
+        android:id="@+id/di_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/drawer_item_icon"
+        android:layout_marginLeft="@dimen/activity_margin_double"
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/di_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/activity_margin_double"
+        android:layout_toRightOf="@+id/di_icon"
+        android:text="..."
+        android:textColor="@color/white_text"
+        android:textSize="@dimen/drawer_item" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.00001dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/drawer_item_separator" />
+
+</RelativeLayout>

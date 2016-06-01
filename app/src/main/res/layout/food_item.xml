@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_margin"
+    android:layout_marginTop="@dimen/activity_margin"
+    app:cardCornerRadius="@dimen/food_item_corner">
+
+    <RelativeLayout
+        android:id="@+id/fi_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/food_item_height">
+
+        <TextView
+            android:id="@+id/fi_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/activity_margin"
+            android:background="@drawable/likes_bg"
+            android:drawableLeft="@drawable/ic_like"
+            android:padding="@dimen/food_item_likes_padding"
+            android:text="  5"
+            android:textColor="@color/white_text"
+            android:textSize="@dimen/food_item_likes" />
+
+        <ImageView
+            android:id="@+id/fi_add"
+            android:layout_width="@dimen/food_item_add_icon"
+            android:layout_height="@dimen/food_item_add_icon"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/activity_margin"
+            android:background="@drawable/add_bg"
+            android:elevation="@dimen/food_item_add_elevation"
+            android:padding="@dimen/activity_margin_half"
+            android:src="@drawable/ic_add" />
+
+        <LinearLayout
+            android:id="@+id/fi_name_sec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+
+            <TextView
+                android:id="@+id/fi_item_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_margin"
+                android:layout_weight="50"
+                android:gravity="right"
+                android:maxLines="3"
+                android:textColor="@color/white_text"
+                android:textSize="@dimen/food_item_name" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fi_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/fi_name_sec"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/activity_margin_half"
+            android:background="@color/food_item_overlay"
+            android:elevation="@dimen/food_item_add_elevation"
+            android:padding="@dimen/activity_margin_half"
+            android:text="Rs. 150"
+            android:textColor="@color/white_text" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
