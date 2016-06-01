@@ -21,7 +21,7 @@
     <dimen name="drawer_close_button">24dp</dimen>
 
     <dimen name="tab_height">48dp</dimen>
-    <dimen name="tab_min_width">84dp</dimen>
+    <dimen name="tab_min_width">120dp</dimen>
     <dimen name="tab_indicator_thickness">4dp</dimen>
     <dimen name="tab_text">16sp</dimen>
 
